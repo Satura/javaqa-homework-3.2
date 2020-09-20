@@ -10,7 +10,6 @@ public class Post {
     private String postText;
     private LikesInfo likes;
     private int viewsCount;
-    private int repostsCount;
     private boolean isPined;
     private String[] attach;
     private String postType;
@@ -24,10 +23,10 @@ public class Post {
     PostSource postSource;
     Geo geo;
     int signerId;
-    int[] canPin;
-    int[] canDelete;
-    int[] canEdit;
-    int[] markerAsAds;
+    boolean canPin;
+    boolean canDelete;
+    boolean canEdit;
+    boolean markerAsAds;
     boolean isFavorite;
     int postPonedId;
 }
